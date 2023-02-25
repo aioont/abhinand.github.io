@@ -288,3 +288,22 @@ table {
   flex: 1; 
   max-width: calc(25% - 20px); 
 }
+
+.parti {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: auto; 
+  }
+  
+  .participation::-webkit-scrollbar {
+	display: none; 
+  }
+  
+  .parti img {
+	border: 4px solid white;
+	margin: 10px;
+	flex: 1; 
+	max-width: calc(25% - 20px); 
+  }
+  
