@@ -265,3 +265,18 @@ table {
 	border: 3px solid black;
 	margin: -5px;
 }
+
+
+.participation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allows images to wrap to the next line */
+}
+
+.participation img {
+  border: 4px solid white;
+  margin: 10px;
+  flex: 1; /* set image to take up equal width */
+  max-width: calc(25% - 20px); /* calculate max width to fit four images */
+}
