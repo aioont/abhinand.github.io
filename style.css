@@ -86,7 +86,8 @@ body {
 .content,
 .cert,
 .intr,
-.cont {
+.cont,
+.participation {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
@@ -279,12 +280,11 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* allows images to wrap to the next line */
 }
 
 .partic img {
   border: 4px solid white;
   margin: 10px;
-  flex: 1; /* set image to take up equal width */
-  max-width: calc(25% - 20px); /* calculate max width to fit four images */
+  flex: 1; 
+  max-width: calc(25% - 20px); 
 }
