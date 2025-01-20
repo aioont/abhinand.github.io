@@ -1884,3 +1884,68 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.skills-item:hover {
+  transform: translateY(-2px);
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title-wrapper .h5 {
+  margin: 0;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.sub-skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sub-skills li {
+  background-color: #e9ecef;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .skills-item {
+    padding: 15px;
+  }
+  
+  .sub-skills {
+    gap: 6px;
+  }
+  
+  .sub-skills li {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+  }
+}
