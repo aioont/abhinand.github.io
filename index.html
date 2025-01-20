@@ -1,1130 +1,716 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhinand - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Abhinand I">Abhinand I</h1>
-
-          <p class="title">AI Developer and Web Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:dainabhinand@gmail.com" class="contact-link">dainabhinand@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+91 623801437zero" class="contact-link">+91 6238014370zero</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Date of Birth - Birthday</p>
-
-              <time datetime="1982-06-23">04 March, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Kozhikode, Kerala, India</address>
-            </div>
-
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/aioont" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/abhinand-i/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/aioon_t/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-        </ul>
-        <li class="social-item social-list">
-          <a href="https://developers.google.com/profile/u/abhinand_i" class="social-link">
-            <ion-icon name=""></ion-icon>Google Developer Profile
-          </a>
-        </li>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Certificates</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Hello, I'm Abhinand I, a software developer and cybersecurity enthusiast from Kozhikode, Kerala, India. I graduated from the College of Applied Science (IHRD) in 2023, where I built a solid foundation in computer science and programming. Currently, I'm pursuing an M.Sc. in Computer Science with a specialization in AI at Cochin University of Science and Technology (CUSAT). Since then, I've been exploring various areas of Artificial Intelligence (AI), software development and cybersecurity, and I'm excited to share my journey with you.
-          </p>
-
-          <p>
-            My technical skills include Django, HTML/CSS, shell scripting, C, and Java. I've also been learning React.js, Node.js, and AI/ML engineering to expand my horizons and stay up-to-date with the latest technologies. I believe that continuous learning is the key to staying relevant in this fast-paced industry, and I'm always eager to learn new things.
-          </p>
-
-        <p>
-          I'm passionate about software development and cybersecurity because I believe they have the power to transform the world and make it a better place. Whether it's building a web application that helps people connect or securing a network from cyber threats, I find great satisfaction in using technology to solve real-world problems.
-        </p>
-          
-          <p>
-            One of my strengths is working as part of a team. I enjoy collaborating with others to brainstorm ideas, solve problems, and deliver high-quality results. In addition to my technical skills, I'm also a quick learner and have excellent communication skills. I believe that effective communication is essential for building strong relationships and achieving shared goals. I'm excited about the future of software development and cybersecurity, and I'm looking forward to contributing to this exciting field in any way I can.
-             Thank you for taking the time to read my "About Me" page, and I hope you enjoy exploring my portfolio website.
-          </p>
-        </section>
-
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhinand - Personal Portfolio</title>
         <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <!-- <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li> -->
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-            
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Artificial Intelligence and Machine Learning</h4>
-            
-                <p class="service-item-text">
-                  Harness the power of cutting-edge AI and ML technologies to drive innovation and efficiency into projects.
-                </p>
-              </div>
-            
-            </li>
-            
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cybersecurity</h4>
-
-                <p class="service-item-text">
-                  I've been exploring various aspects of cybersecurity, such as ethical hacking, penetration testing, and vulnerability assessment. Through hands-on practice and experimentation, I've been able to gain a better understanding of how cyberattacks work and how to prevent them.
-                </p>
-                              <b><a href="https://github.com/aioont/cybersecurity-portfolio">Cybersecurity Portfolio</a></b>
-
-              </div>
-            </li>
-            
-
-          </ul>
-
-        </section>
-        <div class="modal-container" data-modal-container>
-          <div class="overlay" data-overlay></div>
-          <section class="testimonials-modal">
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-          </section>
-        </div>
-
-       
-
-     
-    </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+            - favicon
+            -->
+        <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+        <!--
+            - custom css link
+            -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!--
+            - google font link
+            -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--
+            - #MAIN
+            -->
+        <main>
+            <!--
+                - #SIDEBAR
+                -->
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                    </figure>
+                    <div class="info-content">
+                        <h1 class="name" title="Abhinand I">Abhinand I</h1>
+                        <p class="title">AI Developer and Web Developer</p>
+                    </div>
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+                                <a href="mailto:dainabhinand@gmail.com" class="contact-link">dainabhinand@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+                                <a href="tel:+91 623801437zero" class="contact-link">+91 6238014370zero</a>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Date of Birth - Birthday</p>
+                                <time datetime="1982-06-23">04 March, 2003</time>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+                                <address>Kozhikode, Kerala, India</address>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="separator"></div>
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a href="https://github.com/aioont" class="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://www.linkedin.com/in/abhinand-i/" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/aioon_t/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <li class="social-item social-list">
+                        <a href="https://developers.google.com/profile/u/abhinand_i" class="social-link">
+                            <ion-icon name=""></ion-icon>
+                            Google Developer Profile
+                        </a>
+                    </li>
+                </div>
+            </aside>
+            <!--
+                - #main-content
+                -->
+            <div class="main-content">
+                <!--
+                    - #NAVBAR
+                    -->
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <button class="navbar-link  active" data-nav-link>About</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Resume</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Portfolio</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Certificates</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Contact</button>
+                        </li>
+                    </ul>
+                </nav>
+                <!--
+                    - #ABOUT
+                    -->
+                <article class="about active" data-page="about">
+                    <header>
+                        <h2 class="h2 article-title">About me</h2>
+                    </header>
+                    <section class="about-text">
+                        <p>
+                            Hello, I'm Abhinand I, an AI Researcher and Web Developer from Kozhikode, Kerala, India. Currently pursuing my M.Sc. in Computer Science with a specialization in Artificial Intelligence at Cochin University of Science and Technology (CUSAT), I bring together expertise in AI technologies and software development. I completed my B.Sc. in Computer Science from the College of Applied Science (IHRD) in 2023, where I built a strong foundation in computer science fundamentals.
+                        </p>
+                        <p>
+                            In my current role at Risknox, I lead a team of four developers in creating AI-driven web solutions, where I've independently designed and deployed MVPs while engaging with potential customers. My experience extends to working with cutting-edge technologies through my GenAI Developer internship at TCS, where I developed an AI-powered voice companion for the elderly.
+                        </p>
+                        <p>
+                            I'm deeply involved in the tech community, volunteering with Google Developer Groups (GDG) Kozhikode and participating as a member of IEDC (Innovation and Entrepreneurship Development Cell). My passion for open-source development is reflected in projects like Kex, which has gained significant recognition with over 60 stars on GitHub. I've also worked on innovative projects like LegalGPT, combining AI with practical applications using technologies like IBM WatsonX.
+                        </p>
+                        <p>
+                            My technical expertise spans Django, Python, Machine Learning, LLMs, NLP, and full-stack development. I'm particularly passionate about artificial intelligence and its applications in solving real-world problems. Beyond technical skills, I pride myself on being a quick learner and effective communicator, qualities that have helped me succeed in team leadership and community building roles.
+                        </p>
+                        <p>
+                            I believe in the power of continuous learning and community collaboration to drive innovation in technology. Whether it's developing AI solutions, contributing to open-source projects, or participating in hackathons, I'm always excited to take on new challenges and create meaningful impact through technology.
+                        </p>
+                    </section>
+                    <!--
+                        - service
+                        -->
+                    <section class="service">
+                        <h3 class="h3 service-title">What I'm doing</h3>
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img src="./assets/images/icon-ai.svg" alt="AI icon" width="40">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">AI Research & Development</h4>
+                                    <p class="service-item-text">
+                                        Leading AI-driven solutions at Risknox, specializing in GenAI, LLMs, and NLP. Created innovative projects like LegalGPT using IBM WatsonX and CyberVisionAI for intelligent text analysis.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Full Stack Development</h4>
+                                    <p class="service-item-text">
+                                        Building robust web applications using Django, React, and modern tech stack. Created successful projects like digital product e-commerce platform and Stethosense health management system.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img src="./assets/images/icon-community.svg" alt="Community icon" width="40">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Community Leadership</h4>
+                                    <p class="service-item-text">
+                                        Active volunteer at GDG Kozhikode, IEDC member, and open-source contributor. Leading tech teams and organizing community events to foster collaboration and innovation.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img src="./assets/images/icon-security.svg" alt="Security icon" width="40">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Cybersecurity Research</h4>
+                                    <p class="service-item-text">
+                                        Exploring advanced cybersecurity concepts and developing secure applications. Created tools like Kex for network management and contributed to security-focused open-source projects.
+                                    </p>
+                                    <b><a href="https://github.com/aioont/cybersecurity-portfolio" class="portfolio-link">View Security Portfolio</a></b>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="modal-container" data-modal-container>
+                        <div class="overlay" data-overlay></div>
+                        <section class="testimonials-modal">
+                            <button class="modal-close-btn" data-modal-close-btn>
+                                <ion-icon name="close-outline"></ion-icon>
+                            </button>
+                        </section>
+                    </div>
+                </article>
+                <!--
+                    - #RESUME
+                    -->
+                <article class="resume" data-page="resume">
+                    <header>
+                        <h2 class="h2 article-title">Resume</h2>
+                    </header>
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3">Experience</h3>
+                        </div>
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">AI Researcher and Web Developer - Risknox</h4>
+                                <span>August 2024 — Present</span>
+                                <ul>
+                                    <li class="timeline-text">Leading a team of four in AI-driven web solutions</li>
+                                    <li class="timeline-text">Independently designed and deployed MVP solutions</li>
+                                    <li class="timeline-text">Engaging with potential customers and stakeholders</li>
+                                </ul>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">GenAI Developer Intern - TCS</h4>
+                                <span>August 2024 — January 2025</span>
+                                <ul>
+                                    <li class="timeline-text">Developed AI-powered voice companion for elderly care</li>
+                                    <li class="timeline-text">Focused on GenAI technologies and accessibility</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </section>
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3">Education</h3>
+                        </div>
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">M.Sc. Computer Science (AI Specialization)</h4>
+                                <h5 class="h5">Cochin University of Science and Technology</h5>
+                                <span>2023 — 2025</span>
+                                <ul>
+                                    <li class="timeline-text">Specializing in Artificial Intelligence and Machine Learning</li>
+                                    <li class="timeline-text">Research focus on AI applications and development</li>
+                                </ul>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">B.Sc. Computer Science</h4>
+                                <h5 class="h5">College of Applied Science (IHRD), University of Calicut</h5>
+                                <span>2020 — 2023</span>
+                                <ul>
+                                    <li class="timeline-text">Graduated with SGPA of 8.9</li>
+                                    <li class="timeline-text">Winner of HACK-ELITE hackathon 2023-2024</li>
+                                    <li class="timeline-text">Active member of IEDC Kerala</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </section>
+                    <section class="skill">
+                        <h3 class="h3 skills-title">Technical Skills</h3>
+                        <ul class="skills-list content-card">
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">AI & ML</h5>
+                                    <ul class="sub-skills">
+                                        <li>Machine Learning</li>
+                                        <li>LLMs</li>
+                                        <li>NLP</li>
+                                        <li>IBM WatsonX</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Web Development</h5>
+                                    <ul class="sub-skills">
+                                        <li>Django</li>
+                                        <li>Python</li>
+                                        <li>React</li>
+                                        <li>HTML/CSS/JavaScript</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Tools & Technologies</h5>
+                                    <ul class="sub-skills">
+                                        <li>Git/GitHub</li>
+                                        <li>REST APIs</li>
+                                        <li>Shell Scripting</li>
+                                        <li>Linux</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <h3 class="h3 skills-title">Community & Leadership</h3>
+                        <ul class="skills-list content-card">
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">GDG Kozhikode Volunteer</h5>
+                                </div>
+                            </li>
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Team Leadership</h5>
+                                </div>
+                            </li>
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Open Source Contribution</h5>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+                <!--
+                    - #PORTFOLIO
+                    -->
+                <article class="portfolio" data-page="portfolio">
+                    <header>
+                        <h2 class="h2 article-title">Portfolio</h2>
+                    </header>
+                    <section class="projects">
+                        <ul class="filter-list">
+                            <li class="filter-item">
+                                <button class="active" data-filter-btn>All</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Web Applications</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Applications</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Programs</button>
+                            </li>
+                        </ul>
+                        <div class="filter-select-box">
+                            <button class="filter-select" data-select>
+                                <div class="select-value" data-selecct-value>Select category</div>
+                                <div class="select-icon">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </div>
+                            </button>
+                            <ul class="select-list">
+                                <li class="select-item">
+                                    <button data-select-item>All</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>Web Applications</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>Applications</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>Programs</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project-list">
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/aioont/digital_product_ecommerce">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/dpe-project.png" alt="dpe img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Digital Product E-commerce</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">Digital Product E-commerce (DPE) is a software platform to buy and sell digital products. This web application allows users to buy digital products and download it.This is a simple MultiVendor e-commerce website built with Django (Ptyhon) and Stripe is added as payment processor.In this website, Vendors (Stores) can register and add their products.And Users can visit the product and order by paying with Debit/Credit Card (Stripe is Used).</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/aioont/Disaster-Management-and-Detection">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/dmgt-project.png" alt="dmgt img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Disaster management and detection</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">A fully functional disaster management website with Email Alert and AI fake detection, It will predict the fairness of the disaster reporting. User can report a disaster and the system will sort out all nearby Shops, service, hospitals and Volunteers.',
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/aioont/polls">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/polls-project.png" alt="polls img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Polls</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">Welcome to Polls Create polls and know people's opinion around the world. With Polls, you can create and share your own polls with people from around the world, and discover what others think about important topics. Whether you're looking to gather opinions on a new product or service, or simply curious about what people think about the latest news and trends, Polls has got you covered. So why wait? Sign up today and start creating polls that capture the opinions of people from all walks of life!</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/aioont/connect">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/connect.png" alt="connect img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Connect</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">A social media web application built using django and vue.js.</p>
+                                </a>
+                            </li>
+                            <!--New Web applications Added-->
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/aioont/KH012-FinWise">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/FinWise.png" alt="FinWise image" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">FinWise</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">FinWise is a finance management project, empowers users to take control of their financial well-being through intuitive tools, suggestions and insightful analytics.</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/Stethosense-Codecrafters/stethosense">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/stethosense.png" alt="stethosense img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Stethosense</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">Stethosense is a comprehensive healthcare management solution designed to empower users in effortlessly managing their health and well-being. Our platform integrates medication tracking, diet monitoring, exercise planning, environmental awareness, and more into a single, user-centric application.</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="web applications">
+                                <a href="https://github.com/Stethosense-Codecrafters/stethosense">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/Ecobins.png" alt="EcoBins img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Ecobins</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category">EcoBins is a visionary project dedicated to promoting sustainability by revolutionizing waste management.</p>
+                                </a>
+                            </li>
+                            <!--END OF WEB APP-->
+                            <li class="project-item  active" data-filter-item data-category="applications">
+                                <a href="https://github.com/aioont/abhinand.github.io">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/portfolio-1.png" alt="portfolio img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Portfolio website using HTML,CSS and Javascript</h3>
+                                    <p class="project-category">Website</p>
+                                    <p class="project-category">This own portfolio website using HTML,CSS and Javascript. Code available at https://github.com/aioont/abhinand.github.io</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="programs">
+                                <a href="https://github.com/aioont/kex">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/kex program.png" alt="kex img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Kex</h3>
+                                    <p class="project-category">Program</p>
+                                    <p class="project-category">vncserver managing program using shell</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="programs">
+                                <a href="https://github.com/aioont/ipdetails">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/logo.png" alt="metaspark" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">ipdetails</h3>
+                                    <p class="project-category">CLI Program</p>
+                                    <p class="project-category">provide public, private ip and location of a person ruuning program or visiting url - python</p>
+                                </a>
+                            </li>
+                            <li class="project-item  active" data-filter-item data-category="programs">
+                                <a href="https://github.com/aioont/Full-charge-alert">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./assets/images/logo.png" alt="summary" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title"></h3>
+                                    <p class="project-category">Program</p>
+                                    <p class="project-category">Inform when phone charging completed.Developed using HTML and
+                                        Javascript
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+                <!--
+                    - #BLOG
+                    -->
+                <article class="certificates" data-page="certificates">
+                    <header>
+                        <h2 class="h2 article-title">Certificates</h2>
+                    </header>
+                    <section class="certificates-posts">
+                        <ul class="certificates-posts-list">
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/hackathon.png" alt="hackathon winner certificate" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">HACK-ELITE Hackathon winner 2023</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">HACK-ELITE Hackathon winner 2023 conducted IHRD Thamarassery</h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/cert1.png" alt="Java certificate" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Java</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Fab 05, 2023</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Java Advanced Programming course by Programming Hub</h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/cert2.png" alt="Ethical Hacking Certificate" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Ethical Hacking</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Oct 30, 2020</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Ethical Hacking course by Programming Hub</h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/cert3.png" alt="C Programming Certificate" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">C Programming</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Jan 18, 2023</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">C Programming course by Programming Hub</h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- New certi !-->
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/Cyb-Orien-Camp.jpg" alt="Under Graduation industrial Visit" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Certificate of Participation</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Sept 15, 2023</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Cybersecurity Skill Orientation Camp</h3>
+                                        <p class="certificates-text">
+                                            Cybersecurity Skill Orientation Camp conducted by Department of Computer Application 
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/ISR.jpg" alt="Design digest #79" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Certificate of Participation</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Jun 05, 2023 - Jun 09, 2023</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Applications of Machine learning in Urban Studies - Online Course</h3>
+                                        <p class="certificates-text">
+                                            Applications of Machine learning in Urban Studies through Online by ISRO INDIA
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/FDP.jpg" alt="Design digest #79" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Certificate of Participation</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Oct 18, 2023</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Faculty Development Program on Cyber Security [ Kerala Edition ]</h3>
+                                        <p class="certificates-text">
+                                            The National Cyber Security Research Council organized a Faculty Development Program on Cyber Security, Kerala Edition held at CUSAT.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="certificates-post-item">
+                                <a href="#">
+                                    <figure class="certificates-banner-box">
+                                        <img src="./assets/images/kochi-hackathon-cert.jpg" alt="Design digest #79" loading="lazy">
+                                    </figure>
+                                    <div class="certificates-content">
+                                        <div class="certificates-meta">
+                                            <p class="certificates-category">Certificate of Appreciation</p>
+                                            <span class="dot"></span>
+                                            <time datetime="2022-02-23">Feb 4, 2024</time>
+                                        </div>
+                                        <h3 class="h3 certificates-item-title">Kochi'24 Hackathon Certificate of Appreciation</h3>
+                                        <p class="certificates-text">
+                                            Kochi'24 Hackathon conducted by netstratum
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- New certfi -->
+                        </ul>
+                    </section>
+                </article>
+                <!--
+                    - #CONTACT
+                    -->
+                <article class="contact" data-page="contact">
+                    <header>
+                        <h2 class="h2 article-title">Contact</h2>
+                    </header>
+                    <section class="mapbox" data-mapbox>
+                        <figure>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.43034658745!2d75.72824071234032!3d11.255823359334752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1673059523426!5m2!1sen!2sin" style="width: 100%; height: 250px; border:0;" width="400" height="300" loading="lazy"></iframe>
+                        </figure>
+                    </section>
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <a href="mailto:dainabhinand@gmail.com" class="contact-link"><span>Send Message</span></a>
+                    </button>
+                    </form>
+                    </section>
+                </article>
             </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Cochin University of Science and Technology - Post graduation </h4>
-
-              <span>2023 — 2025</span>
-
-              <li class="timeline-text" style="list-style: disc !important;">
-                Currently pursuing post graduation from CUSAT in M. Sc. Computer Science with specialisation in artificial intelligence
-              </li>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Calicut</h4>
-              <h5 class="h5 timeline-item-title">College of Applied Science (IHRD), Kozhikode</h5>
-
-              <span>2020 — 2023</span>
-
-              <p class="timeline-text">
-                <ul>
-                  
-                  <li class="timeline-text" style="list-style: disc !important;">Academic project : Digital Product E-commerce: Platform to buy and sell digital products using Django framwork, Python, HTML/CSS, JavaScript. :https://github.com/aioont/digital_product_ecommerce
-                  </li>
-
-            
-
-                  <li class="timeline-text" style="list-style: disc !important;">
-                    Academic achievement/activity : Graduated with SGPA of 8.9 , Member of IEDC - Kerala, HACK-ELITE hackathon winner 2023-2024 
-                Location: Kozhikode, Kerala, India
-                  </li>
-              </ul>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Rahmania HSS - Higher Secondary Education</h4>
-
-              <span>2018 — 2020</span>
-
-              <li class="timeline-text" style="list-style: disc !important;">
-                Completed higher secondary education in Computer Science stream.
-              </li>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Technical High School - Secondary School Education</h4>
-
-              <span>2015 — 2018</span>
-
-              <p class="timeline-text">
-                 <li class="timeline-text" style="list-style: disc !important;">
-                    Completed secondary school education from Technical High School - Westhill,Kozhikode.
-                 </li>
-                 <li class="timeline-text" style="list-style: disc !important;">
-                    Completed air conditioning and refrigeration trade
-                </li>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Fresher</h4>
-              <span>2023</span>
-              <p class="timeline-text">
-                Description
-              </p>
-            </li>
-          </ol>
-
-        </section> -->
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Django</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">HTML/CSS</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Shell</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Git</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Linux</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">C</h5>
-              </div>
-            </li>
-            
-          </ul>  
-
-            <h4 class="h4 skills-title">Introductory idea about</h4>
-            <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">REST API</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">React</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Flutter</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">AI and Machine Learning</h5>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Programs</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Programs</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/aioont/digital_product_ecommerce">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/dpe-project.png" alt="dpe img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Digital Product E-commerce</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">Digital Product E-commerce (DPE) is a software platform to buy and sell digital products. This web application allows users to buy digital products and download it.This is a simple MultiVendor e-commerce website built with Django (Ptyhon) and Stripe is added as payment processor.In this website, Vendors (Stores) can register and add their products.And Users can visit the product and order by paying with Debit/Credit Card (Stripe is Used).</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/aioont/Disaster-Management-and-Detection">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/dmgt-project.png" alt="dmgt img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Disaster management and detection</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">A fully functional disaster management website with Email Alert and AI fake detection, It will predict the fairness of the disaster reporting. User can report a disaster and the system will sort out all nearby Shops, service, hospitals and Volunteers.',
-                </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/aioont/polls">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/polls-project.png" alt="polls img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Polls</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">Welcome to Polls Create polls and know people's opinion around the world. With Polls, you can create and share your own polls with people from around the world, and discover what others think about important topics. Whether you're looking to gather opinions on a new product or service, or simply curious about what people think about the latest news and trends, Polls has got you covered. So why wait? Sign up today and start creating polls that capture the opinions of people from all walks of life!</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/aioont/connect">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/connect.png" alt="connect img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Connect</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">A social media web application built using django and vue.js.</p>
-
-              </a>
-            </li>
-
-            <!--New Web applications Added-->
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/aioont/KH012-FinWise">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/FinWise.png" alt="FinWise image" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">FinWise</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">FinWise is a finance management project, empowers users to take control of their financial well-being through intuitive tools, suggestions and insightful analytics.</p>
-
-              </a>
-            </li>
-
-
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/Stethosense-Codecrafters/stethosense">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/stethosense.png" alt="stethosense img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Stethosense</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">Stethosense is a comprehensive healthcare management solution designed to empower users in effortlessly managing their health and well-being. Our platform integrates medication tracking, diet monitoring, exercise planning, environmental awareness, and more into a single, user-centric application.</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web applications">
-              <a href="https://github.com/Stethosense-Codecrafters/stethosense">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Ecobins.png" alt="EcoBins img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Ecobins</h3>
-
-                <p class="project-category">Web Application</p>
-                <p class="project-category">EcoBins is a visionary project dedicated to promoting sustainability by revolutionizing waste management.</p>
-
-              </a>
-            </li>
-
-
-
-
-            <!--END OF WEB APP-->
-
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/aioont/abhinand.github.io">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-1.png" alt="portfolio img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Portfolio website using HTML,CSS and Javascript</h3>
-
-                <p class="project-category">Website</p>
-                <p class="project-category">This own portfolio website using HTML,CSS and Javascript. Code available at https://github.com/aioont/abhinand.github.io</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="programs">
-              <a href="https://github.com/aioont/kex">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/kex program.png" alt="kex img" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Kex</h3>
-
-                <p class="project-category">Program</p>
-                <p class="project-category">vncserver managing program using shell</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="programs">
-              <a href="https://github.com/aioont/ipdetails">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/logo.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">ipdetails</h3>
-
-                <p class="project-category">CLI Program</p>
-                <p class="project-category">provide public, private ip and location of a person ruuning program or visiting url - python</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="programs">
-              <a href="https://github.com/aioont/Full-charge-alert">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/logo.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title"></h3>
-
-                <p class="project-category">Program</p>
-                <p class="project-category">Inform when phone charging completed.Developed using HTML and
-Javascript</p>
-
-              </a>
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="certificates" data-page="certificates">
-
-        <header>
-          <h2 class="h2 article-title">Certificates</h2>
-        </header>
-
-        <section class="certificates-posts">
-
-          <ul class="certificates-posts-list">
-
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/hackathon.png" alt="hackathon winner certificate" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">HACK-ELITE Hackathon winner 2023</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">HACK-ELITE Hackathon winner 2023 conducted IHRD Thamarassery</h3>
-
-                  
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/cert1.png" alt="Java certificate" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Java</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 05, 2023</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Java Advanced Programming course by Programming Hub</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/cert2.png" alt="Ethical Hacking Certificate" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Ethical Hacking</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Oct 30, 2020</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Ethical Hacking course by Programming Hub</h3>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/cert3.png" alt="C Programming Certificate" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">C Programming</p>
- 
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Jan 18, 2023</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">C Programming course by Programming Hub</h3>
-
-                  
-
-                </div>
-
-              </a>
-            </li>
-
-            
-
-            <!-- New certi !-->
-                
-                <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/Cyb-Orien-Camp.jpg" alt="Under Graduation industrial Visit" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Certificate of Participation</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Sept 15, 2023</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Cybersecurity Skill Orientation Camp</h3>
-
-                  <p class="certificates-text">
-                    Cybersecurity Skill Orientation Camp conducted by Department of Computer Application 
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/ISR.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Certificate of Participation</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Jun 05, 2023 - Jun 09, 2023</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Applications of Machine learning in Urban Studies - Online Course</h3>
-
-                  <p class="certificates-text">
-                    Applications of Machine learning in Urban Studies through Online by ISRO INDIA
-                  </p>
-
-                </div>
-
-              </a>
-            </li> 
-            
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/FDP.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Certificate of Participation</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Oct 18, 2023</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Faculty Development Program on Cyber Security [ Kerala Edition ]</h3>
-
-                  <p class="certificates-text">
-                    The National Cyber Security Research Council organized a Faculty Development Program on Cyber Security, Kerala Edition held at CUSAT.
-                  </p>
-
-                </div>
-
-              </a>
-            </li> 
-        
-            <li class="certificates-post-item">
-              <a href="#">
-
-                <figure class="certificates-banner-box">
-                  <img src="./assets/images/kochi-hackathon-cert.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="certificates-content">
-
-                  <div class="certificates-meta">
-                    <p class="certificates-category">Certificate of Appreciation</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Feb 4, 2024</time>
-                  </div>
-
-                  <h3 class="h3 certificates-item-title">Kochi'24 Hackathon Certificate of Appreciation</h3>
-
-                  <p class="certificates-text">
-                    Kochi'24 Hackathon conducted by netstratum
-                  </p>
-
-                </div>
-
-              </a>
-            </li> 
-                    
-        
-        <!-- New certfi -->
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.43034658745!2d75.72824071234032!3d11.255823359334752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1673059523426!5m2!1sen!2sin" style="width: 100%; height: 250px; border:0;" width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <a href="mailto:dainabhinand@gmail.com" class="contact-link"><span>Send Message</span></a>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+        </main>
+        <!--
+            - custom js link
+            -->
+        <script src="./assets/js/script.js"></script>
+        <!--
+            - ionicon link
+            -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
 </html>
