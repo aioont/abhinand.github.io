@@ -1892,6 +1892,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .skills-item {
+  background-color: none;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 15px;
