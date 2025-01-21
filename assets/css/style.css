@@ -1905,12 +1905,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: translateY(-2px);
 }
 
-.title-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .sub-skills {
   list-style: none;
   padding: 0;
