@@ -1892,7 +1892,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .skills-item {
-  background-color: #f8f9fa;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 15px;
@@ -1902,6 +1901,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .skills-item:hover {
   transform: translateY(-2px);
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+    color: #f8f9fa;
+
 }
 
 .sub-skills {
