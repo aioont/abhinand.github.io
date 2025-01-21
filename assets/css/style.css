@@ -1905,6 +1905,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .content-wrapper {
+    display: block;
     align-items: center;
     gap: 5px;
     margin-bottom: 8px;
@@ -1919,6 +1920,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: 8px;
 }
 
 .sub-skills li {
