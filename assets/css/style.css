@@ -1905,7 +1905,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .content-wrapper {
-    display: flex;
     align-items: center;
     gap: 5px;
     margin-bottom: 8px;
