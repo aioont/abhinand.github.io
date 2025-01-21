@@ -1911,13 +1911,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   gap: 10px;
 }
 
-.title-wrapper .h5 {
-  margin: 0;
-  color: #333;
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
 .sub-skills {
   list-style: none;
   padding: 0;
