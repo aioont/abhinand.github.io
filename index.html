@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinand - Personal Portfolio</title>
+    <!--
+            - favicon
+            -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <!--
+            - custom css link
+            -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+            - google font link
+            -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+            - #MAIN
+            -->
+    <main>
+        <!--
+                - #SIDEBAR
+                -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Abhinand I">Abhinand I</h1>
+                    <p class="title">AI Engineer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:dainabhinand@gmail.com" class="contact-link">dainabhinand@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+91 623801437zero" class="contact-link">+91 623801437zero</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Open Source</p>
+                            <a href="https://github.com/aioont/kex" class="contact-link">100+ GitHub Stars</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Kozhikode, Kerala, India</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://github.com/aioont" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/abhinand-i/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/aioon_t/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+                <li class="social-item social-list">
+                    <a href="https://developers.google.com/profile/u/abhinand_i" class="social-link">
+                        <ion-icon name=""></ion-icon>
+                        Google Developer Profile
+                    </a>
+                </li>
+            </div>
+        </aside>
+        <!--
+                - #main-content
+                -->
+        <div class="main-content">
+            <!--
+                    - #NAVBAR
+                    -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Certificates</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+            <!--
+                    - #ABOUT
+                    -->
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        Hello, I'm <b>Abhinand I</b>, an <b>AI/ML Engineer</b> from <b>Kochi, Kerala, India</b>,
+                        passionate about building production-grade intelligent systems that combine innovation with
+                        real-world
+                        impact. I hold an <b>M.Sc. in Computer Science (Artificial Intelligence)</b> from <b>Cochin
+                            University of Science and Technology (CUSAT)</b>, and a <b>B.Sc. in Computer Science</b>
+                        from the College of Applied Science (IHRD).
+                    </p>
+
+                    <p>
+                        Currently, I work as an <b>AI Engineer at Elint AI</b>, designing and deploying
+                        <b>Generative AI, NLP, and agentic AI systems</b> across enterprise environments. My work spans
+                        <b>LLM-powered RAG pipelines, prompt engineering, multi-agent orchestration</b>, and cloud AI
+                        platforms including <b>Azure AI Foundry</b>. I also had the privilege of helping the
+                        cybersecurity startup <b>Risknox.ai</b> go from idea to MVP — a journey that culminated in them
+                        winning <b>Best Innovative Solution at GISEC GLOBAL North Star 2025, Dubai</b>.
+                    </p>
+
+                    <p>
+                        Earlier, I worked as a <b>GenAI Developer Intern at Tata Consultancy Services (TCS)</b>, where
+                        I built and deployed an <b>LLM-powered voice companion</b> for elderly care — optimising
+                        inference latency and integrating cloud AI APIs end-to-end. I bring a strong focus on
+                        <b>Responsible AI</b>: safety, explainability, and compliance are embedded in everything I
+                        build.
+                    </p>
+
+                    <p>
+                        Beyond engineering, I actively volunteer with <b>Google Developer Groups (GDG) Kozhikode</b>,
+                        mentor students at hackathons, and contribute to open-source projects. My project <b>Kex</b>
+                        (an open-source VNC server manager) has earned recognition from the developer community on
+                        GitHub.
+                        I also write about AI engineering on <b>Medium</b> and <b>LinkedIn</b> — sharing practical
+                        learnings on topics like LLM fine-tuning, agentic systems, and real-world AI deployment.
+                    </p>
+
+                    <p>
+                        I thrive on translating complex AI capabilities into scalable, compliant, and measurably
+                        impactful solutions — bringing engineering rigour, cross-functional collaboration, and a
+                        continuous-learning mindset to every team I join.
+                    </p>
+
+                </section>
+                <!--
+                        - service
+                        -->
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/ai.png" alt="Generative AI & Agentic Systems icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Generative AI &amp; Agentic Systems</h4>
+                                <p class="service-item-text">
+                                    Designing and deploying production-grade GenAI workflows — RAG pipelines,
+                                    multi-agent
+                                    orchestration, LLM evaluation, and NL-to-SQL systems — on cloud AI platforms
+                                    including
+                                    Azure AI Foundry, with Responsible AI safeguards embedded by design.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="AI-Integrated Web Apps icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">AI-Integrated Web Applications</h4>
+                                <p class="service-item-text">
+                                    Building scalable web applications powered by AI backends — using Python, FastAPI,
+                                    Django, and modern frontends. Delivered full-stack products including wealth
+                                    management platforms, legal AI systems, and healthcare dashboards.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/management-consulting.png" alt="Community & Open Source icon"
+                                    width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Community &amp; Open Source</h4>
+                                <p class="service-item-text">
+                                    Volunteer, mentor at AI hackathons, reaching students across
+                                    multiple events. Active open source contributor with projects gaining recognition
+                                    from the developer community on GitHub.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/secure.png" alt="MLOps & Responsible AI icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">MLOps &amp; Responsible AI</h4>
+                                <p class="service-item-text">
+                                    Implementing production ML pipelines with CI/CD, Docker containerisation, and
+                                    cloud deployment. Embedding safety principles — PII tokenisation, output
+                                    sanitisation, AI Content Safety, and audit logging — across all systems.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </section>
+                </div>
+            </article>
+            <!--
+                    - #RESUME
+                    -->
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Junior AI Engineer &mdash; Elint AI &middot; Full-time
+                            </h4>
+                            <span>Jul 2025 &mdash; Present &middot; Ernakulam, Kerala, India</span>
+                            <ul>
+                                <li class="timeline-text">Architected and deployed end-to-end GenAI workflows on Azure
+                                    AI Foundry — including RAG pipelines (document ingestion &rarr; chunking &rarr;
+                                    vector indexing &rarr; semantic retrieval), structured output enforcement, and
+                                    embedding generation — serving production enterprise clients across multiple
+                                    industry verticals.</li>
+                                <li class="timeline-text">Built an LLM evaluation framework (LLM-as-a-Judge, golden
+                                    datasets, adversarial regression tests) to validate agent accuracy and safety before
+                                    every production release, tracking quality KPIs across prompt versions and model
+                                    configurations.</li>
+                                <li class="timeline-text">Embedded Responsible AI across all systems: integrated Azure
+                                    AI Content Safety and PII tokenisation at the API gateway, implemented safety
+                                    prompts, output sanitisation, and IAM-based RBAC &mdash; ensuring enterprise-grade
+                                    compliance for regulated clients.</li>
+                                <li class="timeline-text">Built NL-to-SQL pipelines integrating natural language query
+                                    translation with enterprise data systems, and contributed to a large-scale
+                                    AI-enabled Court Management System extending intelligent automation and document
+                                    handling.</li>
+                                <li class="timeline-text">Participated actively in Agile sprint ceremonies, code
+                                    reviews, and architecture design discussions; contributed to team wikis and
+                                    implementation documentation, incorporating feedback to improve code quality
+                                    continuously.</li>
+                            </ul>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">AI Researcher &amp; Web Developer &mdash; Risknox.ai
+                                &middot; Part-time</h4>
+                            <span>Aug 2023 &mdash; Jun 2024</span>
+                            <ul>
+                                <li class="timeline-text">Designed and delivered Python-based AI pipeline components and
+                                    REST API integrations for data preparation, model serving, and feature delivery —
+                                    improving pipeline throughput through systematic profiling and optimisation.</li>
+                                <li class="timeline-text">Led a cross-functional team of engineers building AI-powered
+                                    data processing systems; established unit testing practices and Agile sprint
+                                    workflows — accelerating delivery cadence and improving code reliability.</li>
+                                <li class="timeline-text">Helped Risknox.ai win <b>Best Innovative Solution</b> at the
+                                    <b>GISEC GLOBAL North Star Startup Showcase 2025, Dubai</b> — collaborated with
+                                    stakeholders to transform early-stage ideas into a globally recognised cybersecurity
+                                    product.
+                                </li>
+                                <li class="timeline-text">Conducted proof-of-concept GenAI demonstrations for enterprise
+                                    clients, translating complex technical capabilities into clear business value
+                                    propositions with comprehensive documentation for both technical and non-technical
+                                    audiences.</li>
+                            </ul>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">GenAI Developer Intern &mdash; Tata Consultancy Services
+                                (TCS)</h4>
+                            <span>Aug 2024 &mdash; Jan 2025</span>
+                            <ul>
+                                <li class="timeline-text">Implemented a production LLM-powered application: designed
+                                    prompt pipelines, integrated cloud AI APIs via Python SDKs, enforced structured
+                                    outputs, and deployed to cloud infrastructure — with systematic optimisation and
+                                    debugging.</li>
+                                <li class="timeline-text">Collaborated cross-functionally in Agile sprints with product,
+                                    UX, and backend teams; contributed to code reviews, automated testing, and technical
+                                    documentation in a global engineering environment.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">M.Sc. Computer Science &mdash; AI Specialisation</h4>
+                            <h5 class="h5">Cochin University of Science and Technology (CUSAT)</h5>
+                            <span>Jun 2023 &mdash; Mar 2025</span>
+                            <ul>
+                                <li class="timeline-text">Specialisation in Artificial Intelligence and Machine Learning
+                                    &mdash; NLP, Deep Learning, AI Systems, and Cloud Computing.</li>
+                                <li class="timeline-text">Research focus on applied AI: LLM integration, intelligent
+                                    retrieval systems, and production-grade model deployment.</li>
+                            </ul>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">B.Sc. Computer Science &mdash; University Rank: 8th</h4>
+                            <h5 class="h5">College of Applied Science (IHRD), University of Calicut</h5>
+                            <span>Jun 2020 &mdash; Mar 2023</span>
+                            <ul>
+                                <li class="timeline-text">Graduated with a strong academic record, placing 8th at the
+                                    university level in Computer Science.</li>
+                                <li class="timeline-text">1st Prize winner at the HackElite Hackathon &mdash; built an
+                                    AI-powered Disaster Management System.</li>
+                                <li class="timeline-text">Active member of IEDC Kerala; finalist at the Intelligent
+                                    Innovators AI Healthcare hackathon.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skill">
+                    <h3 class="h3 skills-title">Technical Skills</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Generative AI &amp; LLMs</h5>
+                                <p class="skill-text">Prompt engineering, few-shot &amp; structured output design, LLM
+                                    fine-tuning (LoRA/QLoRA), RAG pipeline design (chunking, vector indexing, semantic
+                                    retrieval), LLM-as-a-Judge evaluation, hallucination detection.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Agentic AI Frameworks</h5>
+                                <p class="skill-text">LangChain, LangGraph, LangFlow, LangSmith, Autogen, Semantic
+                                    Kernel, MCP tool servers; Supervisor-Worker orchestration, HITL patterns, tool
+                                    integration, agent loop design, A2A protocols.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">NLP &amp; Deep Learning</h5>
+                                <p class="skill-text">Transformers (Hugging Face), BERT, LLaMA, PyTorch, TensorFlow,
+                                    scikit-learn; text classification, NER, semantic search, anomaly detection, model
+                                    benchmarking.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Cloud &amp; MLOps</h5>
+                                <p class="skill-text">Microsoft Azure (OpenAI, AI Foundry, ML Studio, AI Services) —
+                                    primary; GCP Vertex AI, BigQuery, Cloud Run; AWS (foundational); Docker, CI/CD
+                                    (GitHub Actions), Git.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Python &amp; Backend APIs</h5>
+                                <p class="skill-text">Python (OOP, Pandas, NumPy, FastAPI, Flask, Pydantic), REST API
+                                    design &amp; integration, JSON schema, unit testing, structured logging, error
+                                    handling, retry logic, MongoDB, Redis, SQL.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Responsible AI &amp; Security</h5>
+                                <p class="skill-text">Azure AI Content Safety, PII tokenisation, output sanitisation,
+                                    IAM/RBAC, secret management, audit logging, safety prompts, adversarial regression
+                                    testing, Responsible AI principles.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Full Stack &amp; Product Development</h5>
+                                <p class="skill-text">End-to-end MVP development, Django, AI-integrated web
+                                    applications, Git, n8n workflow automation, Twilio API, Weaviate vector DB, rapid
+                                    prototyping for client demos and startup validation.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3 skills-title">Community &amp; Leadership</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">GDG Kozhikode Volunteer</h5>
+                                <p class="skill-text">Volunteer mentor at GDG Kozhikode AI events and multiple
+                                    hackathons, conducting coding and AI workshops for students.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Team Leadership &amp; Agile</h5>
+                                <p class="skill-text">Led cross-functional engineering teams; established unit testing
+                                    practices, sprint workflows, and code review culture &mdash; improving delivery
+                                    cadence and code reliability.</p>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="content-wrapper">
+                                <h5 class="h5">Open Source &amp; Knowledge Sharing</h5>
+                                <p class="skill-text">Active open-source contributor with projects recognised by the
+                                    developer community on GitHub. Writes about AI engineering on Medium and LinkedIn,
+                                    sharing practical learnings with the wider community.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <!--
+                    - #PORTFOLIO
+                 -->
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Web Applications</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Applications</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Programs</button>
+                        </li>
+                    </ul>
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="filter-list">
+                            <li class="filter-item">
+                                <button class="active" data-filter-btn>All</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>AI Applications</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Web Applications</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Applications</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filter-btn>Programs</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <!-- LegalGPT Project -->
+                        <li class="project-item active" data-filter-item data-category="ai applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-tcs-voice-companion.jpg" alt="TCS Voice Companion"
+                                        loading="lazy">
+                                </figure>
+                                <h3 class="project-title">TCS Voice Companion for Elderly</h3>
+                                <p class="project-category">AI Project</p>
+                                <p class="project-category">
+                                    Developed at TCS GenAI Lab — an AI-powered voice companion designed to assist
+                                    elderly users with reminders, emotional interactions, and personalized responses.
+                                    Integrated <b>LLMs</b> for natural conversation and <b>TTS</b> for lifelike voice
+                                    synthesis, ensuring accessibility and empathetic engagement.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="ai applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-bilingual-whatsapp-chatbot.jpg"
+                                        alt="Bilingual RAG WhatsApp Chatbot" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Bilingual WhatsApp Chatbot (RAG)</h3>
+                                <p class="project-category">AI Project</p>
+                                <p class="project-category">
+                                    Built a production-ready <b>Malayalam and English WhatsApp chatbot</b> using
+                                    <b>Twilio</b> and <b>RAG (Retrieval-Augmented Generation)</b>.
+                                    Integrated <b>LLMs</b> for contextual answering, dynamic recipe guidance, and
+                                    adaptive multi-language interactions.
+                                    Fully automated using <b>n8n</b> workflows for seamless conversation management.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="ai applications">
+                            <a href="https://github.com/aioont/LegalGPT">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-legal-gpt.png" alt="LegalGPT" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">LegalGPT</h3>
+                                <p class="project-category">AI Application</p>
+                                <p class="project-category">An advanced legal document processing system built using IBM
+                                    WatsonX and IBM Cloud. Features include intelligent case similarity search using RAG
+                                    (Retrieval Augmented Generation), automatic legal citation generation, and document
+                                    analysis. The system streamlines legal research by providing AI-powered assistance
+                                    for legal professionals.</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="ai projects">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-legal-chatbot.png" alt="Production Legal Chatbot"
+                                        loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Production-ready Legal Chatbot</h3>
+                                <p class="project-category">AI Project</p>
+                                <p class="project-category">
+                                    Designed and deployed a full-scale <b>Legal RAG chatbot</b> for document-based Q&A
+                                    and case law retrieval.
+                                    Built using <b>Docker</b>, <b>Weaviate</b>, <b>LLMs</b>, and a <b>SQL-based
+                                        agent</b> for structured queries.
+                                    Enhanced with caching, optimized embeddings, and scalable production logging.
+                                </p>
+                            </a>
+                        </li>
+                        <!-- CyberVisionAI Project -->
+                        <li class="project-item active" data-filter-item data-category="ai applications">
+                            <a href="https://github.com/aioont/CyberVisionAI">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-cyber-vision-ai.png" alt="CyberVisionAI"
+                                        loading="lazy">
+                                </figure>
+                                <h3 class="project-title">CyberVisionAI</h3>
+                                <p class="project-category">AI Application</p>
+                                <p class="project-category">A sophisticated TTP (Tactics, Techniques, and Procedures)
+                                    classifier leveraging BERT for cybersecurity text analysis. The system incorporates
+                                    SHAP and LIME for model interpretability and transparency, helping security analysts
+                                    understand threat patterns. Enhanced with LLM capabilities for intelligent threat
+                                    recommendations and analysis.</p>
+                            </a>
+                        </li>
+
+
+                        <!-- buildwealth24 Project -->
+                        <li class="project-item active" data-filter-item data-category="ai applications">
+                            <a href="https://bw24.makeasite.in/" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-buildwealth24.png"
+                                        alt="buildwealth24 AI Portfolio Manager" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">buildwealth24 — AI Portfolio Manager</h3>
+                                <p class="project-category">AI Web Application</p>
+                                <p class="project-category">
+                                    A full-stack <b>AI-powered wealth management platform</b> for tracking and
+                                    optimizing personal investments across stocks, mutual funds, gold, FDs, and real
+                                    estate.
+                                    Features an <b>AI Wealth Advisor</b> that integrates real-time market data
+                                    (Nifty/Sensex) with portfolio analytics to generate personalized investment
+                                    strategies.
+                                    Built with a clean dashboard, asset allocation visualization, and an intelligent
+                                    stock ledger with P&amp;L tracking.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web applications">
+                            <a href="https://www.mountvista.in/" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/dewvista.png" alt="Mount Vista Resort" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Resort Website Projects</h3>
+                                <p class="project-category">Freelance Project</p>
+                                <p class="project-category">
+                                    Designed and developed responsive, SEO-optimized resort websites for
+                                    <a href="https://www.mountvista.in/" target="_blank"><b>Mount Vista Resort</b></a>
+                                    and
+                                    <a href="https://vythiridewvista.com/" target="_blank"><b>Vythiri Dew Vista</b></a>.
+                                    Delivered end-to-end development, deployment, and performance optimization for
+                                    production readiness.
+                                </p>
+                            </a>
+                        </li>
+                        <!-- Digital Product E-commerce -->
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/aioont/digital_product_ecommerce">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/dpe-project.png" alt="dpe img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Digital Product E-commerce</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">Digital Product E-commerce (DPE) is a software platform to
+                                    buy and sell digital products. This web application allows users to buy digital
+                                    products and download it.This is a simple MultiVendor e-commerce website built with
+                                    Django (Ptyhon) and Stripe is added as payment processor.In this website, Vendors
+                                    (Stores) can register and add their products.And Users can visit the product and
+                                    order by paying with Debit/Credit Card (Stripe is Used).</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/aioont/Disaster-Management-and-Detection">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/dmgt-project.png" alt="dmgt img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Disaster management and detection</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">A fully functional disaster management website with Email
+                                    Alert and AI fake detection, It will predict the fairness of the disaster reporting.
+                                    User can report a disaster and the system will sort out all nearby Shops, service,
+                                    hospitals and Volunteers.',
+                                </p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/aioont/polls">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/polls-project.png" alt="polls img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Polls</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">Welcome to Polls Create polls and know people's opinion
+                                    around the world. With Polls, you can create and share your own polls with people
+                                    from around the world, and discover what others think about important topics.
+                                    Whether you're looking to gather opinions on a new product or service, or simply
+                                    curious about what people think about the latest news and trends, Polls has got you
+                                    covered. So why wait? Sign up today and start creating polls that capture the
+                                    opinions of people from all walks of life!</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/aioont/connect">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/connect.png" alt="connect img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Connect</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">A social media web application built using django and
+                                    vue.js.</p>
+                            </a>
+                        </li>
+                        <!--New Web applications Added-->
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/aioont/KH012-FinWise">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/FinWise.png" alt="FinWise image" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">FinWise</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">FinWise is a finance management project, empowers users to
+                                    take control of their financial well-being through intuitive tools, suggestions and
+                                    insightful analytics.</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/Stethosense-Codecrafters/stethosense">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/stethosense.png" alt="stethosense img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Stethosense</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">Stethosense is a comprehensive healthcare management
+                                    solution designed to empower users in effortlessly managing their health and
+                                    well-being. Our platform integrates medication tracking, diet monitoring, exercise
+                                    planning, environmental awareness, and more into a single, user-centric application.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web applications">
+                            <a href="https://github.com/Stethosense-Codecrafters/stethosense">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/ecobins.png" alt="EcoBins img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Ecobins</h3>
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category">EcoBins is a visionary project dedicated to promoting
+                                    sustainability by revolutionizing waste management.</p>
+                            </a>
+                        </li>
+                        <!--END OF WEB APP-->
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/aioont/abhinand.github.io">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/portfolio-1.png" alt="portfolio img" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Portfolio website using HTML,CSS and Javascript</h3>
+                                <p class="project-category">Website</p>
+                                <p class="project-category">This own portfolio website using HTML,CSS and Javascript.
+                                    Code available at https://github.com/aioont/abhinand.github.io</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="https://github.com/aioont/kex">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-kex-vnc-manager.png" alt="Kex VNC Manager"
+                                        loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Kex</h3>
+                                <p class="project-category">System Application</p>
+                                <p class="project-category">A powerful Virtual Network Computing (VNC) server management
+                                    tool built using shell scripting. Features include automated server setup,
+                                    connection management, and security configurations. The project has gained
+                                    significant community recognition with over 80 stars on GitHub, demonstrating its
+                                    utility in remote desktop management.</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="programs">
+                            <a href="https://github.com/aioont/ipdetails">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/logo.png" alt="metaspark" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">ipdetails</h3>
+                                <p class="project-category">CLI Program</p>
+                                <p class="project-category">provide public, private ip and location of a person ruuning
+                                    program or visiting url - python</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="programs">
+                            <a href="https://github.com/aioont/Full-charge-alert">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/logo.png" alt="summary" loading="lazy">
+                                </figure>
+                                <h3 class="project-title"></h3>
+                                <p class="project-category">Program</p>
+                                <p class="project-category">Inform when phone charging completed.Developed using HTML
+                                    and
+                                    Javascript
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <!--
+                    - #BLOG
+                    -->
+            <article class="blog" data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+                <section class="certificates-posts">
+                    <ul class="certificates-posts-list">
+                        <!-- Blog Post 1 -->
+                        <li class="certificates-post-item">
+                            <a href="https://medium.com/@dainabhinand/fine-tuning-llama-3-and-using-it-locally-a-step-by-step-guide-26513cdd22e5"
+                                target="_blank" rel="noopener noreferrer">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/blog-llama3-finetune.png"
+                                        alt="Fine-Tuning LLaMA 3 and Using It Locally" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Medium &bull; AI / LLMs</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024">2024</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Fine-Tuning LLaMA 3 and Using It Locally: A
+                                        Step-by-Step Guide</h3>
+                                    <p class="certificates-text">
+                                        A practical walkthrough on fine-tuning Meta's LLaMA 3 model on custom data and
+                                        running it locally using Ollama. Covers dataset preparation, LoRA fine-tuning
+                                        with Unsloth, model export, and local deployment — ideal for engineers building
+                                        domain-specific AI without relying on cloud APIs.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Blog Post 2 -->
+                        <li class="certificates-post-item">
+                            <a href="https://medium.com/@dainabhinand/what-i-actually-do-as-an-ai-engineer-beyond-just-calling-an-llm-89403ec67633"
+                                target="_blank" rel="noopener noreferrer">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/blog-ai-engineer-day.png"
+                                        alt="What I Actually Do as an AI Engineer" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Medium &bull; AI Engineering</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024">2024</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">What I Actually Do as an AI Engineer: Beyond
+                                        Just Calling an LLM</h3>
+                                    <p class="certificates-text">
+                                        A candid breakdown of the real day-to-day work of an AI engineer — from
+                                        designing agentic pipelines and building RAG systems, to NL-to-SQL translation,
+                                        AI evaluation, and production deployment. Goes beyond the hype of &quot;just
+                                        calling an API&quot; to reveal the engineering depth involved.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Blog Post 3 -->
+                        <li class="certificates-post-item">
+                            <a href="https://www.linkedin.com/pulse/when-ai-agents-start-talking-each-other-abhinand-i-njdtc/"
+                                target="_blank" rel="noopener noreferrer">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/blog-ai-agents-a2a.png"
+                                        alt="When AI Agents Start Talking to Each Other" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">LinkedIn &bull; AI Agents / A2A</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025">2025</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">When AI Agents Start Talking to Each Other
+                                    </h3>
+                                    <p class="certificates-text">
+                                        Exploring the emerging paradigm of Agent-to-Agent (A2A) communication — how
+                                        protocols like OpenClaw, MCP, and others enable AI agents to coordinate,
+                                        delegate tasks, and collaborate autonomously. A clear explanation of the
+                                        trade-offs and real-world implications of multi-agent systems.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <!--
+                    - #CERTIFICATES
+                    -->
+            <article class="certificates" data-page="certificates">
+                <header>
+                    <h2 class="h2 article-title">Certificates</h2>
+                </header>
+                <section class="certificates-posts">
+                    <ul class="certificates-posts-list">
+                        <!-- New Certificates 2026 -->
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/datacamp-building-scalable-agentic-systems.jpg"
+                                        alt="Building Scalable Agentic Systems - DataCamp" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">DataCamp Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-06">Jun 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Building Scalable Agentic Systems</h3>
+                                    <p class="certificates-text">
+                                        Advanced certification covering Model Context Protocol (MCP) and Agent-to-Agent
+                                        (A2A) communication for building production-ready, scalable AI agent systems.
+                                        Skills: Model Context Protocol (MCP), A2A
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/anthropic-claude-code-101.jpg"
+                                        alt="Claude Code 101 - Anthropic" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Anthropic Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-06">Jun 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Claude Code 101</h3>
+                                    <p class="certificates-text">
+                                        Official Anthropic certification on Claude Code, covering subagent workflows and
+                                        Claude Skills for advanced AI-assisted software development.
+                                        Skills: Claude Code Subagents, Claude Skills
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/microsoft-azure-ai900-exam-prep.jpg"
+                                        alt="Microsoft Azure AI-900 Specialization" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Microsoft Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-02">Feb 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Microsoft Azure AI Fundamentals AI-900 Exam
+                                        Prep Specialization</h3>
+                                    <p class="certificates-text">
+                                        Comprehensive Microsoft specialization covering all domains of the Azure AI
+                                        Fundamentals (AI-900) exam.
+                                        Credential ID: NSRCYVY1VYL3 &nbsp;|&nbsp; Skills: Microsoft Azure AI
+                                        Fundamentals AI-900
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/microsoft-nlp-in-azure.jpg"
+                                        alt="Natural Language Processing in Microsoft Azure" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Microsoft Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-02">Feb 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Natural Language Processing in Microsoft
+                                        Azure</h3>
+                                    <p class="certificates-text">
+                                        Microsoft certification on NLP services and machine learning capabilities in
+                                        Azure cloud.
+                                        Credential ID: Q8LQ9X1U3UH0 &nbsp;|&nbsp; Skills: NLP, Azure Machine Learning
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/microsoft-computer-vision-in-azure.jpg"
+                                        alt="Computer Vision in Microsoft Azure" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Microsoft Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-02">Feb 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Computer Vision in Microsoft Azure</h3>
+                                    <p class="certificates-text">
+                                        Microsoft certification covering Computer Vision APIs and image intelligence
+                                        services on Azure.
+                                        Credential ID: Y8JNBBH6U3ZO &nbsp;|&nbsp; Skills: Computer Vision, Microsoft
+                                        Azure
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/microsoft-azure-machine-learning.jpg"
+                                        alt="Microsoft Azure Machine Learning" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Microsoft Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-02">Feb 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Microsoft Azure Machine Learning</h3>
+                                    <p class="certificates-text">
+                                        Microsoft certification on building, training, and deploying machine learning
+                                        models on Azure.
+                                        Credential ID: VNC3JFFEQ2W7 &nbsp;|&nbsp; Skills: Machine Learning, Azure
+                                        Machine Learning
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/microsoft-artificial-intelligence-on-azure.jpg"
+                                        alt="Artificial Intelligence on Microsoft Azure" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Microsoft Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2026-02">Feb 2026</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Artificial Intelligence on Microsoft Azure
+                                    </h3>
+                                    <p class="certificates-text">
+                                        Microsoft certification on core AI concepts, responsible AI practices, and Azure
+                                        AI services.
+                                        Credential ID: FL44DMQ16M9H &nbsp;|&nbsp; Skills: Artificial Intelligence (AI)
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/1million-prompters-prompt-engineering.jpg"
+                                        alt="Prompt Engineering for AI Systems - 1 Million Prompters" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">1 Million Prompters Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025">2025</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Prompt Engineering for AI Systems</h3>
+                                    <p class="certificates-text">
+                                        Certification from the 1 Million Prompters initiative on advanced prompt
+                                        engineering and generative AI tools for real-world AI systems.
+                                        Skills: Generative AI Tools, Prompt Engineering
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/simplilearn-ai-agent-for-beginners.jpg"
+                                        alt="AI Agent for Beginners - Simplilearn" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Simplilearn Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025-07">Jul 2025</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">AI Agent for Beginners</h3>
+                                    <p class="certificates-text">
+                                        Simplilearn certification introducing AI agents, autonomous workflows, and the
+                                        fundamentals of intelligent agent design.
+                                        Credential ID: 8640618 &nbsp;|&nbsp; Skills: AI Agents, Artificial Intelligence
+                                        (AI)
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/hackelite-hackathon-winner.png"
+                                        alt="HackElite Hackathon Winner Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">HACK-ELITE Hackathon winner 2023</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">HACK-ELITE Hackathon winner 2023 conducted
+                                        IHRD Thamarassery</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/nptel-cyber-security-privacy.png"
+                                        alt="NPTEL Cybersecurity Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">NPTEL Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-11">Nov 2024</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Cyber Security and Privacy</h3>
+                                    <p class="certificates-text">
+                                        Comprehensive certification in cybersecurity fundamentals, privacy policies, and
+                                        compliance frameworks from NPTEL.
+                                        Skills: Cybersecurity, Privacy Policies, Privacy Compliance, Privacy Law
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/ibm-ai-fundamentals.png"
+                                        alt="IBM AI Fundamentals Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">IBM SkillsBuild Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-06">Jun 2024</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Artificial Intelligence Fundamentals</h3>
+                                    <p class="certificates-text">
+                                        IBM certification covering AI fundamentals, machine learning algorithms, and
+                                        supervised learning techniques.
+                                        Skills: Artificial Intelligence (AI), Machine Learning Algorithms, Supervised
+                                        Learning
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/google-foundations-of-cybersecurity.png"
+                                        alt="Google Cybersecurity Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Google Certificate</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-06">Jun 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Foundations of Cybersecurity</h3>
+                                    <p class="certificates-text">
+                                        Google certification in cybersecurity fundamentals and best practices.
+                                        Skills: Cybersecurity
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/programminghub-java-advanced.png"
+                                        alt="Java Advanced Programming Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Java</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Fab 05, 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Java Advanced Programming course by
+                                        Programming Hub</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/programminghub-ethical-hacking.png"
+                                        alt="Ethical Hacking Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Ethical Hacking</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Oct 30, 2020</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Ethical Hacking course by Programming Hub
+                                    </h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/programminghub-c-programming.png"
+                                        alt="C Programming Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">C Programming</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Jan 18, 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">C Programming course by Programming Hub</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- New certi !-->
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/participation-cybersecurity-orientation-camp.jpg"
+                                        alt="Cybersecurity Skill Orientation Camp" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Certificate of Participation</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Sept 15, 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Cybersecurity Skill Orientation Camp</h3>
+                                    <p class="certificates-text">
+                                        Cybersecurity Skill Orientation Camp conducted by Department of Computer
+                                        Application
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/isro-ml-in-urban-studies.jpg"
+                                        alt="ISRO ML in Urban Studies Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Certificate of Participation</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Jun 05, 2023 - Jun 09, 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Applications of Machine learning in Urban
+                                        Studies - Online Course</h3>
+                                    <p class="certificates-text">
+                                        Applications of Machine learning in Urban Studies through Online by ISRO INDIA
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/fdp-cyber-security-kerala.jpg"
+                                        alt="Faculty Development Program Cyber Security Certificate" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Certificate of Participation</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Oct 18, 2023</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Faculty Development Program on Cyber Security
+                                        [ Kerala Edition ]</h3>
+                                    <p class="certificates-text">
+                                        The National Cyber Security Research Council organized a Faculty Development
+                                        Program on Cyber Security, Kerala Edition held at CUSAT.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="certificates-post-item">
+                            <a href="#">
+                                <figure class="certificates-banner-box">
+                                    <img src="./assets/images/netstratum-kochi24-hackathon.jpg"
+                                        alt="Kochi'24 Hackathon Certificate of Appreciation" loading="lazy">
+                                </figure>
+                                <div class="certificates-content">
+                                    <div class="certificates-meta">
+                                        <p class="certificates-category">Certificate of Appreciation</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Feb 4, 2024</time>
+                                    </div>
+                                    <h3 class="h3 certificates-item-title">Kochi'24 Hackathon Certificate of
+                                        Appreciation</h3>
+                                    <p class="certificates-text">
+                                        Kochi'24 Hackathon conducted by netstratum
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <!--
+                    - #CONTACT
+                    -->
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.43034658745!2d75.72824071234032!3d11.255823359334752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1673059523426!5m2!1sen!2sin"
+                            style="width: 100%; height: 250px; border:0;" width="400" height="300"
+                            loading="lazy"></iframe>
+                    </figure>
+                </section>
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <a href="mailto:dainabhinand@gmail.com" class="contact-link"><span>Send Message</span></a>
+                </button>
+                </form>
+                </section>
+            </article>
+        </div>
+    </main>
+    <!--
+            - custom js link
+            -->
+    <script src="./assets/js/script.js"></script>
+    <!--
+            - ionicon link
+            -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
